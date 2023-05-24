@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="final_v1_pkg" type="test_6_serial_with_mega_ros.py" 
+        name="test_6_serial_with_mega_ros_launch" output="screen" />
+    <node pkg="final_v1_pkg" type="Final_code_cam_ros.py" 
+        name="Final_code_cam_ros_launch" output="screen" />
+    <node pkg="final_v1_pkg" type="TestWifi_ros.py" 
+        name="TestWifi_ros_launch" output="screen" />
+</launch>
